@@ -1,12 +1,9 @@
 package dev.goodrich.pantheon.listeners;
 
-import com.palmergames.adventure.text.Component;
 import com.palmergames.bukkit.towny.event.statusscreen.NationStatusScreenEvent;
 import com.palmergames.bukkit.towny.event.statusscreen.TownStatusScreenEvent;
-import com.palmergames.bukkit.towny.event.statusscreen.ResidentStatusScreenEvent; // Ensure this event exists or use your resident subcommand instead
-import com.palmergames.bukkit.towny.object.Resident;
-import dev.goodrich.pantheon.data.ReligionData;
 import dev.goodrich.pantheon.util.ReligionCalculator;
+import net.kyori.adventure.text.Component;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

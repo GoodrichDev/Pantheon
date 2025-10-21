@@ -1,5 +1,5 @@
 name: Pantheon
-version: '1.0.0'
+version: '1.0.3'
 main: dev.goodrich.pantheon.Pantheon
 api-version: '1.21'
 author: 0xBit
